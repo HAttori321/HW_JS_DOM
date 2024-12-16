@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>What do I have in my fridge?</h1>
+    <div id="product-list" class="product-container">
+        <div class="product-card">
+            <img src="image\360_F_59084931_uwNJ5fPSLXg7aYXdTdQIX6G41GTvctmM.jpg" alt="Pepper">
+            <p>Pepper</p>
+        </div>
+        <div class="product-card">
+            <img src="image\Honeycrisp-Apple.jpg" alt="Apple">
+            <p>Apple</p>
+        </div>
+        <div class="product-card">
+            <img src="image\360_F_566029808_X7praimuCQt0MsLCmw5d65Pp5KqmTS8e.jpg" alt="Cheese">
+            <p>Cheese</p>
+        </div>
+        <div class="product-card">
+            <img src="image\depositphotos_29787629-stock-photo-fish.jpg" alt="Fish">
+            <p>Fish</p>
+        </div>
+        <div class="product-card">
+            <img src="image\istockphoto-451505631-612x612.jpg" alt="Eggs">
+            <p>Eggs</p>
+        </div>
+    </div>
+    <h2>Add product:</h2>
+    <div class="button-container">
+        <button onclick="addProduct('image/depositphotos_29787629-stock-photo-fish.jpg', 'Fish')">Add Fish</button>
+        <button onclick="addProduct('image/Honeycrisp-Apple.jpg', 'Apple')">Add Apple</button>
+        <button onclick="addProduct('image/istockphoto-451505631-612x612.jpg', 'Eggs')">Add Eggs</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
